@@ -10,7 +10,7 @@ double rad2deg(double y){
     return (180*y)/(M_PI);
 }
 double findXComponent(double L1,double L2,double A3,double A4){
-    return (L1*sin(A3))+(L2*cos(A4));
+    return (L1*cos(A3))+(L2*cos(A4));
 }
 double findYComponent(double L1,double L2,double A3,double A4){
     return (L1*sin(A3))+(L2*sin(A4));
