@@ -1,25 +1,28 @@
+#define _USE_MATH_DEFINES
 #include <iostream>
 #include <cmath>
-#define _USE_MATH_DEFINES
 using namespace std;
 
 double deg2rad(double x){
-    return ;
+    return (M_PI*x)/180;
 }
 double rad2deg(double y){
-    return ;
+    return (180*y)/(M_PI);
 }
 double findXComponent(double L1,double L2,double A3,double A4){
-    return ;
+    return (L1*sin(A3))+(L2*cos(A4));
 }
 double findYComponent(double L1,double L2,double A3,double A4){
-    return ;
+    return (L1*sin(A3))+(L2*sin(A4));
 }
 double pythagoras(double L1,double L2){
-    return ;
+    return sqrt(pow(L1,2)+pow(L2,2));
 }
 double showResult(double x,double y){
-    return ;
+    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+    cout << "Length of the resultant vector = " << x << "\n";
+    cout << "Direction of the resultant vector (deg) = " << y << "\n";
+    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ";
 }
 
 int main(){
