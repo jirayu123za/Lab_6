@@ -1,6 +1,26 @@
 #include <iostream>
-
+#include <cmath>
+#define _USE_MATH_DEFINES
 using namespace std;
+
+double deg2rad(double x){
+    return ;
+}
+double rad2deg(double y){
+    return ;
+}
+double findXComponent(double L1,double L2,double A3,double A4){
+    return ;
+}
+double findYComponent(double L1,double L2,double A3,double A4){
+    return ;
+}
+double pythagoras(double L1,double L2){
+    return ;
+}
+double showResult(double x,double y){
+    return ;
+}
 
 int main(){
     double l1,l2,a1,a2,xcomp,ycomp,result_vec_length,result_vec_direction;
